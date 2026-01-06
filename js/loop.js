@@ -1,11 +1,10 @@
 // 1+3+9
 
-let mony = 1;
+let money = 1;
 
 for (let i = 1; i < 3; i++) {
-    console.log(mony);
-    
-    mony = mony + mony*2
-    
+    console.log(money);
+    money = money + money * 2
 }
-console.log(mony);
+
+console.log(money); //print money
